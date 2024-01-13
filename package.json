@@ -1,0 +1,28 @@
+{
+  "name": "password",
+  "homepage": "https://SurajKhonde.github.io/RandomPasword",
+  "version": "1.0.0",
+  "description": "this is basic password genrator length charcter are defined by user",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "predeploy": "rd /s /q dist && parcel build index.html --public-url https://SurajKhonde.github.io/RandomPasword/",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "suraj",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.33",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.1"
+  }
+}
