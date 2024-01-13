@@ -3,7 +3,6 @@
   "homepage": "https://SurajKhonde.github.io/RandomPasword",
   "version": "1.0.0",
   "description": "this is basic password genrator length charcter are defined by user",
-  "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
     "predeploy": "rd /s /q dist && parcel build index.html --public-url https://SurajKhonde.github.io/RandomPasword/",
